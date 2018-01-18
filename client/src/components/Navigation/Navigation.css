@@ -1,0 +1,15 @@
+.Navigation {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Navigation a {
+  display: block;
+  padding: 10px;
+  background-color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #aaa;
+  margin: 0 10px;
+  flex-grow: 1;
+}
