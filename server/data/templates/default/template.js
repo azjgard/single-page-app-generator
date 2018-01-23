@@ -1,9 +1,3 @@
-const templateData = {
-  p: 'KI',
-  h1: 'LO',
-};
-module.exports = templateData;
-// #Anything before this line will be erased! Only include templateData behind this line.
 class Admin extends Component {
   constructor(props) {
     super(props);
