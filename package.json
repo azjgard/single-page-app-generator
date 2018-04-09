@@ -1,0 +1,22 @@
+{
+  "name": "react-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others --names \"SERVER,WEB\" -c \"bgBlue.bold,bgMagenta.bold\" \"npm run dev:s\" \"npm run dev:c\"",
+    "dev:s": "cd ./server && npm run dev",
+    "dev:c": "cd ./client && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azjgard/single-page-app-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azjgard/single-page-app-generator/issues"
+  },
+  "homepage": "https://github.com/azjgard/single-page-app-generator#readme"
+}
